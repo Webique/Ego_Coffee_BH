@@ -21,6 +21,14 @@ body {
     line-height: 1.6;
     overflow-x: hidden; /* Prevent horizontal overflow */
 }
+/* Slightly Cursive Font for Inner Texts */
+p,
+span,
+a,
+.contact-note a,
+.social-icons .icon {
+    font-family: 'Lora', serif; /* A more legible cursive-style serif font */
+}
 
 /* Header Styling */
 .main-header {
@@ -73,6 +81,7 @@ body {
 }
 
 .nav-links a {
+    font-family: 'Dancing Script', sans-serif;
     text-decoration: none;
     font-size: 1.5rem;
     font-weight: 500;
