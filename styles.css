@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Playfair+Display:wght@400;700&family=Dancing+Script:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600&family=UnifrakturMaguntia&display=swap');
 
 /* General Reset */
 * {
@@ -15,20 +15,14 @@
 }
 
 body {
-    font-family: 'Dancing Script', sans-serif; /* Slicker and more cursive font */
+    font-family: 'Cinzel', serif; /* Readable yet thematic font for body text */
     background-color: var(--background-color);
     color: var(--primary-color);
     line-height: 1.6;
     overflow-x: hidden; /* Prevent horizontal overflow */
 }
-/* Slightly Cursive Font for Inner Texts */
-p,
-span,
-a,
-.contact-note a,
-.social-icons .icon {
-    font-family: 'Lora', serif; /* A more legible cursive-style serif font */
-}
+
+
 
 /* Header Styling */
 .main-header {
@@ -81,7 +75,6 @@ a,
 }
 
 .nav-links a {
-    font-family: 'Dancing Script', sans-serif;
     text-decoration: none;
     font-size: 1.5rem;
     font-weight: 500;
